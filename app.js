@@ -5,6 +5,7 @@
 //paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
 let listaSorteados = [];
 let numeroSecreto = gerarNmrAleatorio();
+let numeroLimite = 50;
 let tentativa = 1
   function exibirTxtNaTela(tag, texto) {
     let campo = document.querySelector(tag);
